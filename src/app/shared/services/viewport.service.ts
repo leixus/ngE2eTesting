@@ -7,7 +7,7 @@ export class ViewportService {
   constructor() { }
 
   lockScroll() {
-    // Temp until I can figure out the native renderer
+    // Temp until I can figure out the native
     if (document) {
       const scrollDiv = document.createElement('div');
       scrollDiv.className = 'scrollbar-measure';

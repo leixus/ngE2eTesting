@@ -10,7 +10,7 @@ exports.config = {
   },
   directConnect: true,
   specs: [
-    './src/**/*.e2e-spec.ts'
+    './src/**/**/*.e2e-spec.ts'
   ],
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',

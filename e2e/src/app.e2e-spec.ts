@@ -8,15 +8,10 @@ describe('E2E测试Example', () => {
     page = new AppPage();
   });
 
-  // it('显示欢迎信息h2', () => {
-  //   page.navigateTo();
-  //   expect(page.getTitleText()).toEqual('Welcome to angular-io-e2e!');
-  // });
-  //
-  // it('显示欢迎信息h1', () => {
-  //   page.navigateTo();
-  //   expect(page.getTitleTextH1()).toEqual('欢迎来到angular-e2e测试');
-  // });
+  it('显示欢迎', () => {
+    page.navigateTo();
+    expect(page.getTitleText()).toEqual('Hello World');
+  });
 
   // afterEach(async () => {
   //   // Assert that there are no errors emitted from the browser
